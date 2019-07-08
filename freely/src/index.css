@@ -16,4 +16,18 @@ code {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --primaryText: white;
+  --secondaryText: lightgrey;
+}
+
+html {
+  background-color: #4F4BED;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primaryText);
+}
+
+span, p, a {
+  color: var(--secondaryText);
 }

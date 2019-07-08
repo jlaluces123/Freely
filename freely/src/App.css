@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 } */
+
+.App-header {
+  margin: 0 5%;
+  padding: 2% 0;
+}
