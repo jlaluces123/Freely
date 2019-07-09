@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
-import Route from "react-router-dom";
+import { Route } from "react-router-dom";
 
 /* Component Imports */
 import Navigation from "./component/navigation/index.js";
+import Home from "./component/home/index.js";
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
         <Navigation />
       </header>
       <main>
-        {/* <Route exact path = "/" component = {} />
-        <Route path = "/login" component = {} />
+        <Route exact path = "/" component = {Home} />
+        {/* <Route path = "/login" component = {} />
         <Route path = "/relax" component = {} /> */}
       </main>
 
