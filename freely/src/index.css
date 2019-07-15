@@ -18,6 +18,7 @@ code {
   box-sizing: border-box;
   --primaryText: white;
   --secondaryText: lightgrey;
+  --homeMargin: 0 5%;
 }
 
 html {

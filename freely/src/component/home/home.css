@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  max-height: 500px;
+}
+
+.col__50 {
+  width: 50%;
+}
+
+.home__header {
+  font-size: 2.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.home__header--bold {
+  font-weight: 800;
+}
+
+.home__paragraph {
+  margin: 40px 0px;
+  font-size: 1.2rem;
+}
+
+.home__btn {
+  background-color: lightcoral;
+  padding: 20px 80px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.home__right {
+  text-align: center;
+}
+
+.home__img {
+  height: 300px;
+}
