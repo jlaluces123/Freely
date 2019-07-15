@@ -19,6 +19,7 @@ code {
   --primaryText: white;
   --secondaryText: lightgrey;
   --homeMargin: 0 5%;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html {
