@@ -28,8 +28,10 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--primaryText);
+  font-family: 'Oswald', sans-serif;
 }
 
-span, p, a {
+span, p, a, li {
   color: var(--secondaryText);
+  font-family: 'Quicksand', sans-serif;
 }
