@@ -28,3 +28,35 @@
   border-bottom: 3px solid white;
   transition: 0.2s;
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  .navigation__list {
+    font-size: 0.9rem;
+  }
+
+  .navigation__item {
+    margin-right: 10px;
+  }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* .navigation__list {
+    font-size: 1.1rem;
+  }
+
+  .navigation__item {
+    margin-right: 10px;
+  } */
+
+  .navigation__list {
+    font-size: 0.9rem;
+  }
+
+  .navigation__item {
+    margin-right: 10px;
+  }
+
+}
