@@ -1,4 +1,5 @@
 import React from 'react';
+import "./relax.css";
 
 /* Component import */
 import ReactAudioPlayer from "react-audio-player";
@@ -10,8 +11,7 @@ import QuietMorning from "../../assets/media/David_Fesliyan_Quiet_Morning.mp3";
 
 class Relax extends React.Component {
   state = {
-    playlist: [],
-    ended: false,
+    currentSong: null,
   }
 
   componentDidMount() {

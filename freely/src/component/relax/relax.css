@@ -1,0 +1,9 @@
+.relax {
+  height: 80vh;
+}
+
+.audio {
+  position: absolute;
+  bottom: 0px;
+  width: 90%;
+}
