@@ -5,6 +5,7 @@ import { Route } from "react-router-dom";
 /* Component Imports */
 import Navigation from "./component/navigation/index.js";
 import Home from "./component/home/index.js";
+import Relax from "./component/relax/index.js";
 
 function App() {
   return (
@@ -14,8 +15,8 @@ function App() {
       </header>
       <main>
         <Route exact path = "/" component = {Home} />
-        {/* <Route path = "/login" component = {} />
-        <Route path = "/relax" component = {} /> */}
+        {/* <Route path = "/login" component = {} /> */}
+        <Route path = "/relax" component = {Relax} />
       </main>
 
       {/* <footer>
