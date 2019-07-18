@@ -29,6 +29,10 @@
   transition: 0.2s;
 }
 
+.navigation__link {
+  text-decoration: none;
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
 
   .navigation__list {
