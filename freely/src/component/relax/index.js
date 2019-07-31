@@ -3,11 +3,47 @@ import "./relax.css";
 
 /* Component import */
 import ReactAudioPlayer from "react-audio-player";
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 
 /* Song Imports */
 import DeepMeditation from "../../assets/media/David_Fesliyan_Deep_Meditation.mp3";
 import QuietMorning from "../../assets/media/David_Fesliyan_Quiet_Morning.mp3";
 
+
+const content = [
+  {
+    content: "You should not be carried away by the dictation of the mind, but the mind should be carried by your dictation.",
+    author: "A.C Bhaktivedanta Swami",
+  },
+
+  {
+
+    content: "As gold purified in a furnace loses its impurities and achieves its own true nature, the mind gets rid of the impurities of the attributes of delusion, attachment and purity through meditation and attains Reality.",
+    author: "Adi Shankara",
+  },
+
+  {
+
+    content: "If you have time to breathe you have time to meditate. You breathe when you walk. You breathe when you stand. You breathe when you lie down.",
+    author: "Ajahn Amaro",
+  },
+
+  {
+
+    content: "Accepting the reality of change gives rise to equanimity.",
+    author: "Allan Lokos",
+  },
+
+  {
+
+    content: "If you want to conquer the anxiety of life, live in the moment, live in the breath.",
+    author: "Amit Ray",
+  },
+
+]
+
+console.log(content);
 
 class Relax extends React.Component {
   state = {
@@ -29,6 +65,9 @@ class Relax extends React.Component {
   render() {
     return (
       <div className="relax">
+        <Slider>
+
+        </Slider>
         <ReactAudioPlayer
           className = "audio"
           src = {`${this.state.currentSong}`}

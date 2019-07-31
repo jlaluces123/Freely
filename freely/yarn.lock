@@ -6912,6 +6912,12 @@ rc@^1.2.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
+react-animated-slider@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/react-animated-slider/-/react-animated-slider-1.1.4.tgz#01c63cb6cc85fa0452978f72cf579d7868b8b5a9"
+  dependencies:
+    react "^16.4.1"
+
 react-app-polyfill@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-1.0.1.tgz#809a858e44f9564c7f4205e173076f90048274f1"
@@ -7079,7 +7085,7 @@ react-scripts@3.0.1:
   optionalDependencies:
     fsevents "2.0.6"
 
-react@^16.8.6:
+react@^16.4.1, react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   dependencies:
