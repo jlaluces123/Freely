@@ -2,6 +2,20 @@
   height: 80vh;
 }
 
+.article {
+  top: 45%;
+}
+
+.article__header {
+  margin: 0 14%;
+  text-align: center;
+}
+
+.article__author {
+  margin: 0 14%;
+  text-align: center;
+}
+
 .audio {
   position: absolute;
   bottom: 0px;

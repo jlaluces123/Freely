@@ -41,9 +41,7 @@ const content = [
     author: "Amit Ray",
   },
 
-]
-
-console.log(content);
+];
 
 class Relax extends React.Component {
   state = {
@@ -66,7 +64,12 @@ class Relax extends React.Component {
     return (
       <div className="relax">
         <Slider>
-
+          {content.map((text, index) => (
+            <div className="article" key = {index}>
+              <h2 className="article__header">{text.content}</h2>
+              <p className="article__author">- {text.author}</p>
+            </div>
+          ))}
         </Slider>
         <ReactAudioPlayer
           className = "audio"
