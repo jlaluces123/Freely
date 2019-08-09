@@ -17,7 +17,7 @@ const Navigation = () => {
         <ul className = "navigation__list">
           <li className = "navigation__item"><Link className = "navigation__link" to = "/">Home</Link></li>
           <li className = "navigation__item"><Link className = "navigation__link" to = "/relax">Relax</Link></li>
-          <li className = "navigation__item"><Link className = "navigation__link" to = "/about-us">About Us</Link></li>
+          {/* <li className = "navigation__item"><Link className = "navigation__link" to = "/about-us">About Us</Link></li> */}
         </ul>
       </div>
 
